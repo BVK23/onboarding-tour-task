@@ -1,6 +1,6 @@
-# Next.js Project
+# Onboarding Tour Implementation Task
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+You are tasked to replicate the onboarding tour in [Uniboard](https://unimad.ai/uniboard) page of [unimad.ai](https://unimad.ai) website using React Joyride.
 
 ## Getting Started
 
@@ -25,23 +25,57 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+You can start editing the webpage by modifying `pages/uniboard.js` using VS Code. The page auto-updates as you edit the file.
 
-### API Routes
+## Task Instructions
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Familiarize Yourself with the UI
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. **Log in** to the actual unimad.ai site and complete the sign-up process.
+2. **Navigate** to the `/uniboard` page to experience the existing onboarding tour.
+3. **Take notes** on the sequence of steps, messages, and interactions within the tour. These will guide your implementation.
 
-### Font Optimization
+### Implement the Onboarding Tour
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Replicate the tour** using React Joyride by observing the onboarding process on the unimad.ai `/uniboard` page.
+2. **Integrate React Joyride components** into the provided UI. Ensure that the flow, steps, and styling are consistent with the original tour.
+3. **Test the implementation** thoroughly to ensure it runs smoothly and matches the intended user experience.
+4. **Include screenshots** in your documentation to show the different stages of the tour. This will assist in the review process.
+
+### Few Screenshots of Onboarding Tour 
+
+![Screenshot_1](https://github.com/BVK23/onboarding-tour-task/blob/main/public/images/Screenshot_onboardingtour_1.png)
+
+![Screenshot_2](https://github.com/BVK23/onboarding-tour-task/blob/main/public/images/Screenshot_onboardingtour_2.png)
+
+## Submission
+
+### Zip the Repository
+
+- After completing the implementation and documentation, zip the project directory (excluding the `node_modules` and `.next` folder).
+- Name the zip file as `<your-name>_onboarding_tour.zip`.
+
+### Send Your Submission
+
+- Email your zipped project to [varunkrishna97@gmail.com].
+- Include any additional notes or documents you think are relevant to your submission.
+
+### Explanation Call
+
+- Be prepared to explain the logic and choices made during your implementation in a follow-up call. Discuss any challenges you faced and how you overcame them.
 
 ## Learn More
+
+### React Joyride
+
+- [React Joyride Demo](https://react-joyride.com/)
+- [React Joyride Docs](https://docs.react-joyride.com/)
+- [React Joyride Repo](https://github.com/gilbarbara/react-joyride)
+
+### Next.js
 
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
