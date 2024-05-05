@@ -4,6 +4,8 @@ You are tasked to replicate the onboarding tour in [Uniboard](https://unimad.ai/
 
 ## Getting Started
 
+Start off by cloning this repo.
+
 ### Installation
 
 First, install the dependencies:
@@ -40,7 +42,6 @@ You can start editing the webpage by modifying `pages/uniboard.js` using VS Code
 1. **Replicate the tour** using React Joyride by observing the onboarding process on the unimad.ai `/uniboard` page.
 2. **Integrate React Joyride components** into the provided UI. Ensure that the flow, steps, and styling are consistent with the original tour.
 3. **Test the implementation** thoroughly to ensure it runs smoothly and matches the intended user experience.
-4. **Include screenshots** in your documentation to show the different stages of the tour. This will assist in the review process.
 
 ### Few Screenshots of Onboarding Tour 
 
@@ -58,7 +59,7 @@ You can start editing the webpage by modifying `pages/uniboard.js` using VS Code
 ### Send Your Submission
 
 - Email your zipped project to [varunkrishna97@gmail.com].
-- Include any additional notes or documents you think are relevant to your submission.
+- Feel free to include any additional notes or documents you think are relevant to your submission.
 
 ### Explanation Call
 
